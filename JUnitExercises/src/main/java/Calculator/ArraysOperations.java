@@ -1,7 +1,6 @@
 package Calculator;
 
 public class ArraysOperations {
-
     public int calcLength(int[] numbers) {
         return numbers.length;
     }
@@ -17,6 +16,4 @@ public class ArraysOperations {
         }
         return count;
     }
-
-
 }

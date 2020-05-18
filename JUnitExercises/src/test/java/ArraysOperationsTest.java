@@ -17,6 +17,5 @@ public class ArraysOperationsTest {
         int[] numbers = {2, 4, 9, 3, 8};
         int result = arraysOperations.returnNumbersBiggerThen(numbers);
         assert result == 2;
-
     }
 }
