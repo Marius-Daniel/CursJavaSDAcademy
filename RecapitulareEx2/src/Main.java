@@ -7,7 +7,7 @@ public class Main {
         int []  numbers = {1,2,3,3,4,5,5,8,9,10,10};
         int countDuplicate = 0;
 
-
+        // complexitatea este de O(n) deoarece este necesat sa trecem prin toate elementele array-ului ca sa putem compara elementele;
         for (int i = 0 ; i <numbers2.length-1; i++){
             for(int j = 0 ; j < i; j++){
                 if(numbers2[i] == numbers2[j]){
